@@ -67,11 +67,28 @@ public class GameManager : MonoBehaviour
 
     public void QuitGame()
     {
+        // 1. Zamanı normale döndür (Zaman 0'da kalmasın)
         Time.timeScale = 1f;
-        Application.Quit();
 
+        // 2. Platform Kontrolü
+
+        // A. UNITY EDITOR İÇİN (Sadece Test)
 #if UNITY_EDITOR
+        // Sadece Editör içindeyken oyunu durdurur
         UnityEditor.EditorApplication.isPlaying = false;
+
+        // B. WEBGL İÇİN (itch.io)
+#elif UNITY_WEBGL
+    // WebGL'de çıkış yapmak yerine, genellikle bir mesaj gösterilir
+    // veya ana menüye dönülür, çünkü sekme kapatılamaz.
+    // Şimdilik, konsola yazıp fonksiyondan çıkıyoruz.
+    Debug.Log("WebGL'de Application.Quit() desteklenmez. Çıkış işlevi atlandı.");
+    return; // Fonksiyonu burada sonlandır.
+    
+    // C. DİĞER PLATFORMLAR İÇİN (PC/Mac/Android/iOS)
+#else
+    // Windows, Mac, Android ve iOS için uygulamayı kapatır
+    Application.Quit();
 #endif
     }
 

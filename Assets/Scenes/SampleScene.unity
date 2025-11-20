@@ -742,7 +742,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 50
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1049,6 +1049,7 @@ GameObject:
   - component: {fileID: 972678231}
   - component: {fileID: 972678230}
   - component: {fileID: 972678229}
+  - component: {fileID: 972678232}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -1170,6 +1171,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972678227}
   m_CullTransparentMesh: 1
+--- !u!114 &972678232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972678227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53eaed5ce2b325344ac25e76dbedb327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimeScaleIndependentButton
 --- !u!1 &1200901436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1557,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 1
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1600, y: 1200}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
@@ -1603,6 +1616,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 319291137158320946, guid: d70ec9b06fcbf494c8f8536389f571ba, type: 3}
+      propertyPath: defaultSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a0ba265091f3afc4c807dbcea0ea80cb, type: 3}
+    - target: {fileID: 319291137158320946, guid: d70ec9b06fcbf494c8f8536389f571ba, type: 3}
+      propertyPath: rollLeftSprite
+      value: 
+      objectReference: {fileID: 1577690205163554540, guid: 650205a71a3eb5a44a510eaa9f04707f, type: 3}
+    - target: {fileID: 319291137158320946, guid: d70ec9b06fcbf494c8f8536389f571ba, type: 3}
+      propertyPath: rollRightSprite
+      value: 
+      objectReference: {fileID: -1129548133983015714, guid: 16acd0f56c00a2e44a3ab0b46a8b58c2, type: 3}
     - target: {fileID: 6765515047628513063, guid: d70ec9b06fcbf494c8f8536389f571ba, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1834,6 +1859,7 @@ GameObject:
   - component: {fileID: 1785305809}
   - component: {fileID: 1785305808}
   - component: {fileID: 1785305807}
+  - component: {fileID: 1785305810}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -1955,6 +1981,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785305805}
   m_CullTransparentMesh: 1
+--- !u!114 &1785305810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785305805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53eaed5ce2b325344ac25e76dbedb327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1906108534
 GameObject:
   m_ObjectHideFlags: 0

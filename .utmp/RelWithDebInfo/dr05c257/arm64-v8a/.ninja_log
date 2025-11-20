@@ -1,0 +1,12 @@
+# ninja log v5
+3765	5857	7853505851200000	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	20921c484ad10bb9
+5864	8175	7853505883900000	D:/Projects/Unity/Flight2D_V2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/dr05c257/obj/arm64-v8a/libswappywrapper.so	ccd0d727724035bc
+4	10982	7853505808600000	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	644c297b703ac4de
+305	11607	7853505811300000	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	a744c768243281f2
+900	12013	7853505819300000	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	73d5fcc8674b1312
+1762	12623	7853505830000000	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	edbc049ec46fd6d6
+2378	13338	7853505836900000	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e16f03c471372892
+595	14240	7853505814800000	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	229ac55cc1c7a08d
+1329	14277	7853505823300000	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e6af05030f3ccf7b
+3073	15751	7853505844000000	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b8068d5097a1f0d1
+15755	17047	7853505974300000	D:/Projects/Unity/Flight2D_V2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/dr05c257/obj/arm64-v8a/libgame.so	3a99a0d57e0d1aeb
